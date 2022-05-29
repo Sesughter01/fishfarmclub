@@ -1,0 +1,116 @@
+
+.fishfarmclub__header{
+    display: flex;
+    max-width: 1440px;
+}
+.fishfarmclub__header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.fishfarmclub__header-content p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    margin-top: 1.5rem;
+}
+.fishfarmclub__header-content h1{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 59px;
+    line-height: 71px;
+}
+
+
+
+
+.fishfarmclub__header-content__cta{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 2rem 1rem 1rem;
+    
+    
+}
+.fishfarmclub__header-content__cta-button button{
+    cursor: pointer;
+    font-family: var(--font-family);
+    width: 131px;
+    height: 42px;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 0.7rem;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    line-height: 20px;
+    outline: none;
+    text-transform: uppercase;
+}
+.button_fill button{
+    
+    border: none;
+    background-color:#F67701 ;
+}
+.button_stroke button{
+    border: 1px solid #F67701;
+    background-color:#Ffffff ;
+    color: var(--color-footer);
+}
+
+.fishfarmclub__header-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fishfarmclub__header-image img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:1050px){
+    .fishfarmclub__header{
+        flex-direction: column;
+    }
+    .fishfarmclub__header-content{
+        margin: 0 0 3rem;
+    }
+}
+@media screen and (max-width:650px){
+    .fishfarmclub__header h1{
+        font-size:48px ;
+        line-height: 60px;
+    }
+    .fishfarmclub__header p{
+        font-size:16px ;
+        line-height: 24px;
+    }
+   
+}
+@media screen and (max-width:550px){
+    .fishfarmclub__header-content__cta{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:375px){
+    
+    .fishfarmclub__header-content h1{
+        font-size:42px ;
+        line-height: 48px;
+    }
+    .fishfarmclub__header p{
+        font-size:16px ;
+        line-height: 24px;
+    }
+}
+

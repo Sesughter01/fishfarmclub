@@ -1,0 +1,86 @@
+
+
+    
+
+
+.fishfarmclub__partners{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: .5rem;
+    max-width: 1200px;
+    margin:  5rem auto auto;
+    padding: 1rem 2rem ;
+    
+    
+    
+}
+.fishfarmclub__partners-heading{
+    margin: 5rem auto 1rem auto;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    
+}
+.fishfarmclub__partners-heading h2{
+    text-align: center;
+}
+.fishfarmclub__partners-heading-input{
+    text-align: center;
+    margin: 1rem 5rem;
+}
+
+.fishfarmclub__partners-heading-input input{
+
+    font-size: 1.5rem;
+    margin: 1rem auto 1rem auto;
+    padding: 1rem ;
+
+} 
+
+.fishfarmclub__partners-heading-input button{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width:678px){
+    .fishfarmclub__partners{
+        
+        margin: 1rem 1rem auto;
+        padding: 1rem 0.5rem ;
+
+    }
+    .fishfarmclub__partners-heading{
+        margin: 1rem auto 1rem auto;
+        padding: 1rem 1rem;
+        font-size: 1rem;
+        
+    }
+    .fishfarmclub__partners-heading h2{
+        text-align: center;
+    }
+    .fishfarmclub__partners-heading-input{
+        text-align: center;
+        margin: 1rem 0;
+    }
+    
+    .fishfarmclub__partners-heading-input input{
+    
+        font-size: 1rem;
+        margin: 1rem auto 1rem auto;
+        padding: 1rem ;
+    
+    } 
+    
+    .fishfarmclub__partners-heading-input button{
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    
+}
+
+/* MEDIA QUERIES */
+
+
+
+    

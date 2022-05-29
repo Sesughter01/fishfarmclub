@@ -1,0 +1,88 @@
+.fishfarmclub__packages{
+    background-image: url('/src/assets/blckcatfsh.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--font-family);
+    margin: 4rem auto;
+    text-align: center;
+    /* width: 100%; */
+    width: 944px;
+    max-width: 1440px;
+    height: 531px;
+    color: #ffffff;
+    padding: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fishfarmclub__packages h1{
+    padding: 5rem 5rem 0.5rem;
+}
+
+
+
+
+
+.fishfarmclub__packages button{
+    cursor: pointer;
+    font-family: var(--font-family);
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 258px;
+    height: 64px;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 0.7rem;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+    background-color:#F67701 ;
+    
+}
+
+/* Media Queries */
+
+/* Tablet */
+
+@media screen and (max-width:999px){
+    .fishfarmclub__packages{
+      width: 650px;
+
+    }
+    .fishfarmclub__packages h1{
+        padding: 5rem 2rem 0.5rem;
+    }
+}
+@media screen and (max-width:768px){
+    .fishfarmclub__packages{
+      width: 450px;
+    }
+}
+ /* Mobile */
+
+
+
+
+
+ 
+ @media screen and (max-width:450px){
+     .fishfarmclub__packages{
+         width: 100%;
+         background-size: cover; 
+         margin: 0 auto;
+         padding: 5rem 1rem;
+         height: 678px;
+         overflow:visible ;
+     }
+    
+ }
+
+ @media screen and (max-width:300px){
+    .fishfarmclub__packages button{
+        width: 200px;
+    }
+ }

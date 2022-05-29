@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+:root{
+
+    --bg_img_1: url('/src/assets/partner_img1.png');
+    --bg_img_2: url('/src/assets/partner_img2.png');
+    --bg_img_3: url('/src/assets/partner_img3.png');
+    }
+
+.imgcard {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
+.img_bg_1 {
+    
+    background-image: var(--bg_img_1);
+   
+    
+}
+.img_bg_2 {
+    
+    background-image: var(--bg_img_2);
+   
+    
+}
+.img_bg_3 {
+    
+    background-image: var(--bg_img_3);
+   
+    
+}
+.imgcard-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 12rem;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 1.5em;
+}
+.imgcard-body{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+
+  color: rgb(255, 252, 254);
+}
