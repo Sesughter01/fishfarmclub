@@ -1,5 +1,9 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
     
 
 
@@ -15,24 +19,33 @@
     
 }
 .fishfarmclub__partners-heading{
-    margin: 5rem auto 1rem auto;
+    margin: 2rem auto 1rem auto;
     padding: 1rem 2rem;
-    font-size: 1rem;
+    font-size: 2rem;
     
 }
 .fishfarmclub__partners-heading h2{
     text-align: center;
 }
 .fishfarmclub__partners-heading-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin: 1rem 5rem;
+    margin-top:1rem ;
+    padding: 1rem;
 }
 
 .fishfarmclub__partners-heading-input input{
-
+    border: 1px solid grey;
+    outline: none;
     font-size: 1.5rem;
-    margin: 1rem auto 1rem auto;
-    padding: 1rem ;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* margin: 1rem auto 1rem auto; */
+    padding-left: 0.5rem ;
 
 } 
 
@@ -40,8 +53,99 @@
     text-align: center;
     font-size: 1.5rem;
     padding: 1rem;
+    background-color: #f67701;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    
 }
 
+.fishfarmclub__contact{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+.fishfarmclub__contact h2{
+    font-size: 2rem;
+    /* padding: 0 5rem; */
+    text-align: center;
+}
+.fishfarmclub__contact-call{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 3rem;
+}
+.fishfarmclub__contact-call span{
+    color: #f67701;
+}
+.fishfarmclub__contact-call p{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fishfarmclub__getstarted{
+    min-height: 380px;
+  background-color: #f67701;
+  width: 100%;
+  padding: 5rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+.fishfarmclub__getstarted h1{
+  text-align: center;
+  color: #ffffff;
+}
+.fishfarmclub__getstarted button{
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #f67701;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width:1000px){
+    
+
+.fishfarmclub__contact h2{
+    text-align: center;
+}
+.fishfarmclub__contact-call{
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 2rem 3rem;
+}
+.fishfarmclub__contact-call span{
+    color: #f67701;
+}
+.fishfarmclub__contact-call p{
+    font-size: 1.5rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+}
+@media screen and (max-width:880px){
+    .fishfarmclub__contact-call p{
+        font-size: 1.2rem;
+       
+    }
+    .fishfarmclub__footer-bottom{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 1rem;
+        text-align: center;
+    }
+    .fishfarmclub__footer-bottom p{
+        padding: 1rem;
+    }
+}
 @media screen and (max-width:678px){
     .fishfarmclub__partners{
         
@@ -57,17 +161,18 @@
     }
     .fishfarmclub__partners-heading h2{
         text-align: center;
+        font-size: 1.5rem;
     }
     .fishfarmclub__partners-heading-input{
         text-align: center;
-        margin: 1rem 0;
+        padding: .5rem 1rem;
     }
     
     .fishfarmclub__partners-heading-input input{
     
         font-size: 1rem;
-        margin: 1rem auto 1rem auto;
-        padding: 1rem ;
+        /* margin: 1rem auto 1rem auto; */
+        padding: 0.5rem ;
     
     } 
     
@@ -77,6 +182,35 @@
         padding: 1rem;
     }
     
+.fishfarmclub__contact{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 1rem auto;
+    /* font-size: 1rem; */
+}
+.fishfarmclub__contact h2{
+
+    text-align: center;
+}
+.fishfarmclub__contact-call{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+}
+
+.fishfarmclub__contact-call p{
+    font-size: 1rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* 
+    .fishfarmclub__footer-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    } */
 }
 
 /* MEDIA QUERIES */

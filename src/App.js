@@ -1,7 +1,7 @@
 import React from 'react'
 
-import {Header, Testimonials, Whatsapp, Footer,Packages,Partners } from './containers';
-import { Navbar,Chatbot } from './components';
+import {Header, Testimonials, Footer,Packages,Partners } from './containers';
+import { Navbar } from './components';
 
 
 
@@ -17,11 +17,11 @@ const App = () => {
         <Packages />
         <Testimonials />
         <Partners />
-        <Chatbot />
-        <Whatsapp />
+      
+        
         
         <Footer />
-
+        {/* <Route path="categories" element={<Category />} /> */}
     </div>
   )
 }

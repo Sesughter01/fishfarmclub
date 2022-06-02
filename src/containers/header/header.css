@@ -1,7 +1,7 @@
 
 .fishfarmclub__header{
     display: flex;
-    max-width: 1440px;
+    /* max-width: 1440px; */
 }
 .fishfarmclub__header-content{
     flex: 1;

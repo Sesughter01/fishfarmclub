@@ -1,0 +1,48 @@
+
+:root{
+    --bg-package-card-1: #FFE0B2;
+    --bg-package-card-2: url('/src/assets/catfish_2.png');
+    --font-family:'Raleway', sans-serif;
+    --color-primary:#F67701;
+}
+
+.bg_card_1{
+
+    /* background-image: var(--bg-package-card-1); */
+}
+.bg_card_2{
+
+    /* background-image: var(--bg-package-card-2); */
+}
+.fishfarmclub__categories__item{
+    min-width: 200px;
+    padding: 0.5rem;
+  
+}
+.fishfarmclub__categories__item p{
+    font-family: var(--font-family);
+    margin-top: 1remrem;
+    font-weight: 500;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    background: var(--color-primary);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms  ease-in-out;
+    color: #FFE0B2;
+    font-family: var(--font-family);
+    font-weight: 800;
+    outline:none;
+    border: none;   
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

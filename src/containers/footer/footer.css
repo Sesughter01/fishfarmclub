@@ -1,0 +1,39 @@
+
+.fishfarmclub__footer-top{
+    font-family: var(--font-family);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 0.5rem;
+    max-width: 1200px;
+  
+}
+
+.fishfarmclub__footer-top h3{
+    margin: .5rem auto;
+}
+.fishfarmclub__footer-top span{
+    color: #f67701;
+}
+.fishfarmclub__footer-top_list{
+    margin: .5rem auto;
+    min-width: max-content;
+}
+
+.fishfarmclub__footer-top_list li{
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    list-style: none;
+}
+.fishfarmclub__footer-bottom{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    justify-content: space-around;
+    font-size: 1rem;
+}
+.fishfarmclub__footer-bottom .fishfarmclub__copyrights span{
+   color: #f67701;
+}

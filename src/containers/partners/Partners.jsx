@@ -29,6 +29,20 @@ const Partners = () => {
                         <button type='button'>Join Our List</button>
 
                     </div>
+                    <div className="fishfarmclub__contact">
+                        <h2>Benefit from years of business experience</h2>
+                        <div className="fishfarmclub__contact-call">
+                            <p><span>Call:</span> 07034098765</p>
+                            <p> 07034098765</p>
+                            <p> 07034098765</p>
+
+                        </div>
+                        <div className="fishfarmclub__getstarted">
+                            <h1>Get started today!</h1>
+                            <button type='button'>INVEST NOW</button>
+                        </div>
+                       
+                    </div>
                 </div>
         </div>
     )
