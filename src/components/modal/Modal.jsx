@@ -1,16 +1,20 @@
-import React, {useState} from 'react'
-import {Invest} from '../../components'
-import './modal.css'
+import React, {useState} from 'react';
+import {Invest} from '../../components';
+import './modal.css';
 import '../invest_form/invest.css'
+import axios from 'axios';
+
+
 // import catfish_2 from '../../assets/catfish_2.png'
 const Modal = ({open,name,details}) => {
     const [openForm, setOpenForm] = useState(false)
+    // const [closeForm, setCloseForm] = useState(false)
     if(!open) 
         return null;
     
     return (
        
-           <div className="fishfarmclub__modalContainer">
+           <div className="fishfarmclub__modalContainer ">
 
                 <div className="card">
                 
@@ -24,10 +28,17 @@ const Modal = ({open,name,details}) => {
                         </ul>
                     </div>
                     <p>{details}</p>
-                    <button onClick={() =>setOpenForm(true)}>Open Account</button>
-                    </div>
-                         
-             <Invest myform={openForm}/>
+                    {
+                  
+
+                   
+                    <button className='button_stroke' onClick={() =>setOpenForm(true)}>Open Account</button>
+                    }
+                </div>
+            
+                <Invest myform={openForm} onClose={()=>setOpenForm(false)} />
+            
+                        
 
         </div>
     )
