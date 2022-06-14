@@ -24,12 +24,12 @@ const Invest = ({myform,onClose}) => {
             name: investInput.name,
             email: investInput.email
         }
-        // axios.get('/sanctum/csrf-cookie').then(response => {
+        axios.get('/sanctum/csrf-cookie').then(response => {
             // Login...
             axios.post(`/api/invest`,data).then(res =>{
                      
             });
-        // });
+ });
     }
     
 
