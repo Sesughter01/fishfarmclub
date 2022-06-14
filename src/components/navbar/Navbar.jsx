@@ -14,8 +14,8 @@ const Menu = ()=>(
     <>
        <p><a href='/'>Home</a></p>  {""}
        <p><Link to='/categories'>Packages</Link></p>  {""}
-       <p><a href="#pricing">Services</a></p>
-       <p><a href="#services">Partners</a></p>
+       {/* <p><a href="#pricing">Services</a></p> */}
+       {/* <p><a href="https://wa.me/2347062419747">Partners</a></p> */}
        <p><a href="#partners">Contact Us</a></p>
 
        <Outlet />
