@@ -265,7 +265,7 @@
     }
     .fishfarnclub__testimonials-feature .card_2{
         margin: 2rem  auto ;
-        /* padding: 5rem 0 auto auto; */
+        padding: 2rem 0 auto auto;
     
        
     }
@@ -279,8 +279,8 @@
     
     }
     .fishfarm__testimonials-features_content p{
-         font-size: 1rem;
-        line-height: 1rem;
+         font-size: 0.8rem;
+        /* line-height: 1rem; */
     }
     
 }
