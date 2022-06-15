@@ -5,9 +5,9 @@
 }
 :root{
 
-    --bg_img_1: url('/src/assets/partner_img1.png');
-    --bg_img_2: url('/src/assets/partner_img2.png');
-    --bg_img_3: url('/src/assets/partner_img3.png');
+    --bg_img_1: url('/src/assets/blckcatfsh.png');
+    --bg_img_2: url('/src/assets/blckcatfsh.png');
+    --bg_img_3: url('/src/assets/blckcatfsh.png');
     }
 
 .imgcard {

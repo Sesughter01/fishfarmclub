@@ -1,5 +1,5 @@
 import React from 'react'
-import name_content from '../../components/name';
+import promotion_content from '../../components/promotions';
 import {ImgCard} from '../../components/';
 import './partners.css'
 import '../../components/img-card/imgcard.css'
@@ -9,15 +9,15 @@ const Partners = () => {
         
             <div className='fishfarmclub__partners'>
                 <div className="img_bg_1 imgcard">
-                    <ImgCard imgname={name_content[0]} imgbody='Member since 2014'  />
+                    <ImgCard imgname={promotion_content[0]} imgbody='Profitable Investments'  />
 
                 </div>
                 <div className="img_bg_2 imgcard">
-                    <ImgCard imgname={name_content[1]} imgbody='Member since 2012' />
+                    <ImgCard imgname={promotion_content[1]} imgbody='Experienced Farm Managers' />
 
                 </div>
                 <div className="img_bg_3 imgcard">
-                    <ImgCard imgname={name_content[2]} imgbody='Member since 2019' />
+                    <ImgCard imgname={promotion_content[2]} imgbody='Prompt Payments' />
 
                 </div>
         

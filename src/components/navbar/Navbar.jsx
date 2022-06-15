@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
-import Category from '../../routes/categories/Category';
+// import Category from '../../routes/categories/Category';
 import {Outlet, Link } from "react-router-dom";
 import logo from '../../assets/fishfarm.svg'
  import './navbar.css';
@@ -44,7 +44,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="fishfarmclub__cta">
-                <button type='button'>Join Club</button>
+                <a href="https://wa.me/2348188276926">Join Club</a>
             </div>
             <div className="fishfarmclub__navbar-menu">
                {toggleMenu
@@ -59,7 +59,7 @@ const Navbar = () => {
                            
                                  <Menu />
                                  <div className="fishfarmclub__cta">
-                                     <button type='button'>Join Club</button>
+                                     <a href="https://wa.me/2348188276926">Join Club</a>
                                  </div>
                            </div>
                        </div>

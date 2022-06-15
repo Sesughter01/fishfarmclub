@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import './package_card.css'
 import {Invest} from '../../components'
-const PackageCard = ({my_package,price,package_details}) => {
+const PackageCard = ({my_package,price,package_details,package_returns}) => {
     const [openForm, setOpenForm] = useState(false)
     // const [labelTag, setLabelTag] = useState("Select")
     //   let buttonLabel = document.getElementById('button').innerHTML
@@ -25,7 +25,7 @@ const PackageCard = ({my_package,price,package_details}) => {
                 }
             </div>
        
-            <Invest myform={openForm} onClose={()=>setOpenForm(false)} details={package_details} />
+            <Invest myform={openForm} onClose={()=>setOpenForm(false)} details={package_details} package_returns = {package_returns} />
         </div>
     )
 }

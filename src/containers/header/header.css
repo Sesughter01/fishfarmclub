@@ -38,10 +38,10 @@
     
     
 }
-.fishfarmclub__header-content__cta-button button{
+.fishfarmclub__header-content__cta-button {
     cursor: pointer;
     font-family: var(--font-family);
-    width: 131px;
+    width: 141px;
     height: 42px;
     font-size: 1rem;
     font-weight: 800;
@@ -50,15 +50,16 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     color: #ffffff;
     line-height: 20px;
-    outline: none;
+   
     text-transform: uppercase;
+    text-decoration: none;
 }
-.button_fill button{
+.button_fill {
     
-    border: none;
+   
     background-color:#F67701 ;
 }
-.button_stroke button{
+.button_stroke {
     border: 1px solid #F67701;
     background-color:#Ffffff ;
     color: var(--color-footer);

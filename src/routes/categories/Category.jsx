@@ -11,15 +11,15 @@ const Category = () => {
 
                     <div className="fishfarmclub__package-item bg_card_1">
                             <img src={allImages[2] } alt="" />
-                        <PackageCard my_package = {package_name.package_name_1} price = {prices.package_name_1} package_details={package_name.package_name_1_details} />
+                        <PackageCard my_package = {package_name.package_name_1} price = {prices.package_name_1} package_details={package_name.package_name_1_details} package_returns={package_name.package_name_1_details_return}/>
                     </div> 
                     <div className="fishfarmclub__package-item bg_card_2" >
                     <img src={allImages[3] } alt="" />
-                        <PackageCard my_package = {package_name.package_name_2} price = {prices.package_name_3} package_details={package_name.package_name_2_details}/>
+                        <PackageCard my_package = {package_name.package_name_2} price = {prices.package_name_2} package_details={package_name.package_name_2_details} package_returns={package_name.package_name_2_details_return}/>
                     </div> 
                     <div className="fishfarmclub__package-item bg_card_3" >
                     <img src={allImages[2] } alt="" />
-                        <PackageCard my_package = {package_name.package_name_3} price = {prices.package_name_2} package_details={package_name.package_name_3_details} />
+                        <PackageCard my_package = {package_name.package_name_3} price = {prices.package_name_3} package_details={package_name.package_name_3_details} package_returns={package_name.package_name_3_details_return}/>
                     </div> 
                     {/* <div className="fishfarmclub__package-item bg_card_4"  > */}
                     {/* <img src={allImages[3] } alt="" />

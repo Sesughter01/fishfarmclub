@@ -17,7 +17,7 @@ const Testimonials= () => {
 
                    </div>
                    <div className="fishfarm__testimonials-features_content">
-                       <h1>Investor testimonials</h1>
+                       <h1>Our Business Model</h1>
                        <p>Wherever you’re and whatever your income, you can invest now and benefit from our proven business model. </p>
                    </div>
                </div>

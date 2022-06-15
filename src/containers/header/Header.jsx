@@ -10,10 +10,10 @@ const Header = () => {
                 <p>Join the FishFarm Club and benefit from amazing and Profitable Plans</p>
                 <div className="fishfarmclub__header-content__cta">
                         <div className="fishfarmclub__header-content__cta-button button_fill">
-                             <button type='button'>Invest Now</button>
+                             <a href='/categories'>Invest Now</a>
                         </div>
                         <div className="fishfarmclub__header-content__cta-button button_stroke">
-                              <button type='button'>Take a tour</button>
+                              <a href='button'>Take a tour</a>
                         </div>
 
                 </div>

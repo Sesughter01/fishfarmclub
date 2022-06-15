@@ -1,6 +1,5 @@
 import axios from 'axios';
-import React, {useState}  from 'react'
-import {Link} from 'react-router-dom'
+import React  from 'react'
 import './invest.css'
 
 axios.defaults.baseURL = 'http://127.0.0.1:8000/';
@@ -9,7 +8,7 @@ axios.defaults.headers.post['Accept'] ='application/json';
 axios.defaults.withCredentials = true;
 
 
-const Invest = ({myform,onClose,details}) => {
+const Invest = ({myform,onClose,details,package_returns}) => {
     
   
      if(!myform) 
@@ -21,11 +20,11 @@ const Invest = ({myform,onClose,details}) => {
                 <div className="invest-container">
                     <h1>Package Details</h1>
                      <p>{details}</p>
-                     <p>Kindly send the fish investment money directly to the company account</p>
-                      <p><strong>Acc Name: SAMSPEC BUSINESS </strong></p>
-                      <p><strong>Acc No.: 5600794082 </strong></p>
-                      <p><strong>Banker: Fidelity Bank </strong></p>
-                    <a  href= "https://wa.me/2347062419747" class="btn">
+                     <p>{package_returns}</p>
+                      <p><strong>Kindly send the fish investment money directly to the company account <br /> Acc Name: SAMSPEC BUSINESS </strong></p>
+                      <p><strong>Acc No.: 5600794082 <br /> Banker: Fidelity Bank</strong></p>
+                      {/* <p><strong>Banker: Fidelity Bank </strong></p> */}
+                    <a  href= "https://wa.me/2348188276926" class="btn">
                           {/* <button type="submit" class="btn">Invest</button> */}
                          Join WhatsApp Group
                     </a>

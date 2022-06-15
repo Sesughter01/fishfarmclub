@@ -47,7 +47,7 @@
     
 
 }
-.fishfarmclub__cta button,
+.fishfarmclub__cta a,
 .fishfarmclub__navbar-menu_container button{
     cursor: pointer;
     font-family: var(--font-family);
