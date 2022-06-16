@@ -23,7 +23,7 @@
 
 
 
-.fishfarmclub__packages button{
+.fishfarmclub__packages .btn{
     cursor: pointer;
     font-family: var(--font-family);
     margin-top: 5rem;
@@ -33,7 +33,7 @@
     height: 64px;
     font-size: 1rem;
     font-weight: 800;
-    padding: 0.7rem;
+    padding: 1.5rem 2rem;
     text-align: center;
     color: #ffffff;
     line-height: 20px;
