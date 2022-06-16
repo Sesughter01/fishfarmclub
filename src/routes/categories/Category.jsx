@@ -18,7 +18,7 @@ const Category = () => {
                         <PackageCard my_package = {package_name.package_name_2} price = {prices.package_name_2} package_details={package_name.package_name_2_details} package_returns={package_name.package_name_2_details_return}/>
                     </div> 
                     <div className="fishfarmclub__package-item bg_card_3" >
-                    <img src={allImages[2] } alt="" />
+                    <img src={allImages[4] } alt="" />
                         <PackageCard my_package = {package_name.package_name_3} price = {prices.package_name_3} package_details={package_name.package_name_3_details} package_returns={package_name.package_name_3_details_return}/>
                     </div> 
                     {/* <div className="fishfarmclub__package-item bg_card_4"  > */}

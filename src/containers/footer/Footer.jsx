@@ -31,7 +31,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="fishfarmclub__footer-bottom">
-                             <p className="fishfarmclub__copyrights"><span>FishFarmClub</span> is a registered organization. © 2022, All rights reserved.</p>
+                             <p className="fishfarmclub__copyrights"><span>FishFarmClub</span> <br /> Powdered by Samspec Enterprise.</p>
                              <p className="fishfarmclub__tos">Terms & Conditions</p>
                              <p className="fishfarmclub__policy">Privacy Policy</p>
                         </div>
