@@ -33,13 +33,13 @@
     justify-content: center;
     text-align: center;
     margin-top:1rem ;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .fishfarmclub__partners-heading-input input{
     border: 1px solid grey;
     outline: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-top-left-radius: 5px;
@@ -51,8 +51,8 @@
 
 .fishfarmclub__partners-heading-input button{
     text-align: center;
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
     background-color: #f67701;
     color: #ffffff;
     outline: none;
@@ -164,12 +164,13 @@
         font-size: 1.5rem;
     }
     .fishfarmclub__partners-heading-input{
+        justify-content: space-between;
         text-align: center;
-        padding: .5rem 1rem;
+        padding: .5rem 0;
     }
     
     .fishfarmclub__partners-heading-input input{
-    
+        width: 180px;
         font-size: 1rem;
         /* margin: 1rem auto 1rem auto; */
         padding: 0.5rem ;
@@ -177,15 +178,17 @@
     } 
     
     .fishfarmclub__partners-heading-input button{
+        width: 77px;
         text-align: center;
-        font-size: 1rem;
-        padding: 1rem;
+        font-size: 0.6rem;
+        padding:0.5rem;
     }
     
 .fishfarmclub__contact{
     display: flex;
     /* flex-direction: column; */
     margin: 1rem auto;
+    gap: 0.5rem;
     /* font-size: 1rem; */
 }
 .fishfarmclub__contact h2{
@@ -199,7 +202,7 @@
 }
 
 .fishfarmclub__contact-call p{
-    font-size: 1rem;
+    font-size: 0.6rem;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
