@@ -1,5 +1,5 @@
-import test_img_1 from '../assets/test_img_1.png'
-import testi_img2 from '../assets/testi_img2.png'
+import income_stream from '../assets/income_stream.png'
+import referrals from '../assets/referrals.png'
 import catfish_1 from '../assets/catfish_1.png'
 import catfish_2 from '../assets/catfish_2.png'
 
@@ -7,8 +7,8 @@ import catfish_2 from '../assets/catfish_2.png'
 
 
 const allImages =  [
-     test_img_1 ,
-     testi_img2,
+     income_stream,
+     referrals,
      catfish_1,
      catfish_2
    
