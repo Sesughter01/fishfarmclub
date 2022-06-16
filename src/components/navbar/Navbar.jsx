@@ -59,7 +59,7 @@ const Navbar = () => {
                            
                                  <Menu />
                                  <div className="fishfarmclub__cta">
-                                     <a href="https://wa.me/2348188276926">Join Club</a>
+                                     <a href="https://chat.whatsapp.com/KaAbLpdK9pS5NlRF6TZBMD">Join Club</a>
                                  </div>
                            </div>
                        </div>

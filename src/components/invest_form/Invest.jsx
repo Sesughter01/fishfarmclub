@@ -24,7 +24,7 @@ const Invest = ({myform,onClose,details,package_returns}) => {
                       <p><strong>Kindly send the fish investment money directly to the company account <br /> Acc Name: SAMSPEC BUSINESS </strong></p>
                       <p><strong>Acc No.: 5600794082 <br /> Banker: Fidelity Bank</strong></p>
                       {/* <p><strong>Banker: Fidelity Bank </strong></p> */}
-                    <a  href= "https://wa.me/2348188276926" class="btn">
+                    <a  href= "https://chat.whatsapp.com/KaAbLpdK9pS5NlRF6TZBMD" class="btn">
                           {/* <button type="submit" class="btn">Invest</button> */}
                          Join WhatsApp Group
                     </a>
