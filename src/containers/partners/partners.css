@@ -164,13 +164,12 @@
         font-size: 1.5rem;
     }
     .fishfarmclub__partners-heading-input{
-        justify-content: space-between;
         text-align: center;
         padding: .5rem 0;
     }
     
     .fishfarmclub__partners-heading-input input{
-        width: 180px;
+        
         font-size: 1rem;
         /* margin: 1rem auto 1rem auto; */
         padding: 0.5rem ;
@@ -178,7 +177,7 @@
     } 
     
     .fishfarmclub__partners-heading-input button{
-        width: 77px;
+        
         text-align: center;
         font-size: 0.6rem;
         padding:0.5rem;
@@ -197,26 +196,46 @@
 }
 .fishfarmclub__contact-call{
     display: flex;
-    justify-content: space-between;
     margin: 1rem 1rem;
+    justify-content: space-between;
 }
 
 .fishfarmclub__contact-call p{
     font-size: 0.6rem;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 /* 
-    .fishfarmclub__footer-top{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        gap: 1rem;
-    } */
+.fishfarmclub__footer-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+} */
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width:375px){
+    
+    
+    .fishfarmclub__partners-heading-input input{
+        justify-content: space-between;
+        width: 180px;
+        font-size: 1rem;
+        /* margin: 1rem auto 1rem auto; */
+        padding: 0.5rem ;
+    
+    } 
+    
+    .fishfarmclub__partners-heading-input button{
+        width: 77px;
+        text-align: center;
+        font-size: 0.6rem;
+        padding:0.5rem;
+    }
+    
+}
 
 
 
