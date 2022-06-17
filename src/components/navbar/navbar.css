@@ -108,7 +108,8 @@
 }
 
 
-.fishfarmclub__navbar-menu_container a{
+.fishfarmclub__navbar-menu_container a:not(:last-child){
+    display: block;
     margin: 1rem 0;
 }
 /* MEDIA QUERIES */
@@ -156,11 +157,11 @@
     
     } 
      .fishfarmclub__navbar-menu_container{
-        top: 65px;
+        top: 35px;
         text-align: right !important;
     
     } 
-    .fishfarmclub__navbar-menu_container a{
+    .fishfarmclub__navbar-menu_container-links a:not(:last-child){
         width: max-content;
         margin-left: auto;
         margin-right: 0;
