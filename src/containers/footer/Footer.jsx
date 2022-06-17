@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
              <div className="fishfarmclub__footer-top">
-                            <h3><span>Fish</span>FarmClub</h3>
+                            <a href="/"><h3><span>Fish</span>FarmClub</h3></a>
                             <div className="fishfarmclub__footer-top_list">
                                 <ul>
                                     <li>Twitter</li>

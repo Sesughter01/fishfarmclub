@@ -52,14 +52,14 @@
     
     font-size: 14px;
     text-transform: uppercase;
-    margin: 0 1rem;
+    margin: 1rem 1rem;
     cursor: pointer;
     border-bottom: 1px solid #F67701;
     border-width: 3px;
     
 
 }
-.fishfarmclub__cta a,
+.fishfarmclub__cta ,
 .fishfarmclub__navbar-menu_container button{
     cursor: pointer;
     font-family: var(--font-family);
@@ -108,18 +108,18 @@
 }
 
 
-.fishfarmclub__navbar-menu_container p{
+.fishfarmclub__navbar-menu_container a{
     margin: 1rem 0;
 }
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1193px){
-    .fishfarmclub__navbar-links_container p{
+    .fishfarmclub__navbar-links_container a{
         font-size: 12px;
     }
 }
 @media screen and (max-width: 1150px){
-    .fishfarmclub__navbar-links_container p{
+    .fishfarmclub__navbar-links_container a{
         font-size: 10px;
         margin: 0 .5rem;
     }
@@ -132,7 +132,7 @@
         display: flex;
         color: #ffffff;
     }
-    .fishfarmclub__navbar-menu_container button{
+    .fishfarmclub__navbar-menu_container .fishfarmclub__cta{
         display: none;
     
     }
@@ -147,10 +147,11 @@
      .fishfarmclub__navbar{
          padding:2rem  ;
      }
-   .fishfarmclub__navbar-links  + .fishfarmclub__cta{
+   .fishfarmclub__navbar-Navlinks  + .fishfarmclub__cta{
        display: none;
      }
-     .fishfarmclub__navbar-menu_container button{
+   
+     .fishfarmclub__navbar-menu_container .fishfarmclub__cta{
         display: block;
     
     } 
@@ -159,7 +160,7 @@
         text-align: right !important;
     
     } 
-    .fishfarmclub__navbar-menu_container p{
+    .fishfarmclub__navbar-menu_container a{
         width: max-content;
         margin-left: auto;
         margin-right: 0;
@@ -168,19 +169,31 @@
 @media screen and (max-width: 375px){
     .fishfarmclub__navbar{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        padding: 2rem 4rem;
+        padding: 2rem 2rem;
     }
-    .fishfarmclub__navbar-links_logo img{
-        width: 224px;
+    .fishfarmclub__navbar-Navlinks_logo img{
+        width: 150px;
         height: 41px;
     
     }
+
+
+    .fishfarmclub__cta {
+        display: none;
+        width: 95px;
+
+    }
+    
+    .fishfarmclub__cta a{
+        /* width: 95px; */
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width:280px){
-    .fishfarmclub__navbar-links_logo img{
-        width: 178px;
+    .fishfarmclub__navbar-Navlinks_logo img{
+        width: 158px;
         height: 41px;
     
     }

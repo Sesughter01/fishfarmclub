@@ -113,5 +113,23 @@
         font-size:16px ;
         line-height: 24px;
     }
+    .button_fill a{
+    
+     font-size: 0.8rem;
+       
+    }
+    .button_stroke a{
+       font-size: 0.8rem;
+    }
 }
 
+@media screen and (max-width:280px){
+    .button_fill a{
+      font-size: 0.7rem;
+   
+      
+    }
+    .button_stroke a{
+        font-size: 0.7rem;
+    }
+}
