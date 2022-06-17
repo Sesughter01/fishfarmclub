@@ -50,9 +50,9 @@ const Partners = () => {
                     <div className="fishfarmclub__contact">
                         <h2>Benefit from years of business experience</h2>
                         <div className="fishfarmclub__contact-call">
-                            <p><span>Call:</span> 07034098765</p>
-                            <p> 07034098765</p>
-                            <p> 07034098765</p>
+                            <p><span>Call:</span> 09012318932</p>
+                            <p> 08188276926</p>
+                            {/* <p> 07034098765</p> */}
 
                         </div>
                         <div className="fishfarmclub__getstarted">

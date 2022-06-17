@@ -25,7 +25,7 @@ const Footer = () => {
                                 <h2>SAMSPEC BUSINESS ENTERPRISES</h2>
                                 <h3>BN:2563360</h3>
                                 <p>Address: 1, Eja Tutu Quarters,<br /> Eleja Tutu Bus Stop, <br /> Owode Ede, Osun State  </p>
-                                <p><strong>Tel:09012381932</strong></p>
+                                <p><strong>Tel:09012318932</strong></p>
                                 <p><strong>WhatsApp:08188276926</strong></p>
                             </div>
                         </div>
