@@ -1,0 +1,56 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* width: 100%; */
+    /* height: 100vh; */
+}
+.fishfarmclub_about{
+    padding: 0 1rem;
+    /* height: 1200px; */
+    min-height: 578px;
+    max-height: 1640px;
+}
+.fishfarmclub_about .sidebar{
+    width: 100%;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+
+}
+.fishfarmclub_about .sidebar h2{
+    font-size: 1rem;
+    /* padding: 0 1rem; */
+    text-align: center;
+    /* padding: 1rem 0; */
+}
+.fishfarmclub_about .sidebar h2 span{
+    color: chocolate;
+}
+
+.fishfarmclub_about  .aboutUs h3{
+   color: chocolate;
+   padding: 1rem 1rem;
+   text-align: center;
+}
+
+.fishfarmclub_about .aboutUs .article{
+   background-color: #f7f7f7;
+   padding: 5rem 2rem;
+}
+
+.fishfarmclub_about .aboutUs p{
+   color: #282727;
+   line-height: 1.5;
+}
+
+.fishfarmclub_about .absenteeism p{
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 1.5;
+    padding: 2rem ;
+}

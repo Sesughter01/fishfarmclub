@@ -6,6 +6,18 @@
   padding: 2rem 4rem;
   /* max-width: 1440px; */
 }
+
+.fishfarmclub__navbar a.active {
+    color: #F67701;
+    border-bottom: 1px solid #11100f;
+}
+
+.fishfarmclub__navbar-Navlinks {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
 .fishfarmclub__navbar-links{
      flex: 1;
      display: flex;
@@ -16,7 +28,7 @@
     justify-content: flex-start;
     margin-right: 2rem;
 }
-.fishfarmclub__navbar-links_logo img{
+.fishfarmclub__navbar-links_logo a img{
     width: 238px;
     height: 41px;
 
@@ -32,8 +44,8 @@
     align-items: center;
 } 
 
-.fishfarmclub__navbar-links_container p,
-.fishfarmclub__navbar-menu_container p{
+.fishfarmclub__navbar-links_container a,
+.fishfarmclub__navbar-menu_container a{
 
     font-family: var(--font-family);
     font-weight: 800;

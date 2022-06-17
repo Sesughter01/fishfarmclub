@@ -18,7 +18,12 @@
     margin: .5rem auto;
     min-width: max-content;
 }
-
+#footerid p{
+    line-height: 1.2;
+}
+#footerid h2{
+ font-size: 1rem;
+}
 .fishfarmclub__footer-top_list li{
     padding: 0.5rem;
     font-size: 1rem;
