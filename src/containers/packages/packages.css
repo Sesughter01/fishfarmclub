@@ -85,4 +85,14 @@
     .fishfarmclub__packages button{
         width: 200px;
     }
+    
+.fishfarmclub__packages .btn{
+    text-align: center;
+    font-size: .8rem;
+    width: 158px;
+    padding: 1.5rem 0;
+   
+    
+}
+
  }

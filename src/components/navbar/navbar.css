@@ -153,7 +153,9 @@
      }
    
      .fishfarmclub__navbar-menu_container .fishfarmclub__cta{
-        display: block;
+         width: 120px;
+        display: inline-block;
+        padding: 0.5rem 0;
     
     } 
      .fishfarmclub__navbar-menu_container{
@@ -188,8 +190,8 @@
     }
     
     .fishfarmclub__cta a{
-        /* width: 95px; */
-        font-size: 1rem;
+        
+        font-size: .8rem;
     }
 }
 @media screen and (max-width:280px){

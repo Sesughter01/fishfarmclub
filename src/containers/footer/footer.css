@@ -8,7 +8,8 @@
   
 }
 
-.fishfarmclub__footer-top h3{
+.fishfarmclub__footer-top a h3{
+    text-align: center;
     margin: .5rem auto;
 }
 .fishfarmclub__footer-top span{
@@ -41,4 +42,15 @@
 }
 .fishfarmclub__footer-bottom .fishfarmclub__copyrights span{
    color: #f67701;
+}
+
+@media screen and (max-width: 550px){
+    #footerid p{
+        text-align: center;
+        line-height: 1.2;
+    }
+    #footerid h2,h3{
+        text-align: center;
+     font-size: 1rem;
+    }
 }

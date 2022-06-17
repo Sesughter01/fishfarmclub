@@ -218,7 +218,16 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width:375px){
-    
+    .fishfarmclub__getstarted .invest{
+       
+        text-align: center;
+      
+        font-size: 0.7rem;
+        font-weight: 800;
+        padding: 1rem 0;
+        margin: 1rem auto;
+      
+    }
     
     .fishfarmclub__partners-heading-input input{
         justify-content: space-between;
