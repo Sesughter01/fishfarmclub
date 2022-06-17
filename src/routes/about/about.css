@@ -39,6 +39,7 @@ body{
 }
 
 .fishfarmclub_about .aboutUs .article{
+    text-align: center;
    background-color: #f7f7f7;
    padding: 5rem 2rem;
 }
