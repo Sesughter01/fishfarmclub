@@ -9,7 +9,7 @@ const Category = () => {
             <Navbar/>
             <div className="fishfarmclub__package">
 
-                    <div className="fishfarmclub__package-item bg_card_1">
+                    <div className="fishfarmclub__package-item ">
                             <img src={allImages[2] } alt="" />
                         <PackageCard my_package = {package_name.package_name_1} price = {prices.package_name_1} package_details={package_name.package_name_1_details} package_returns={package_name.package_name_1_details_return}/>
                     </div> 

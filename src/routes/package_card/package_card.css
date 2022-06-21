@@ -8,25 +8,24 @@
 
 .bg_card_1{
 
-    /* background-image: var(--bg-package-card-1); */
+   width: 100%;
+   padding: 0 1rem;
 }
-.bg_card_2{
 
-    /* background-image: var(--bg-package-card-2); */
-}
 .fishfarmclub__categories__item{
     min-width: 200px;
-    padding: 0.5rem;
+    padding: 0.5rem ;
+    text-align: center;
   
 }
 .fishfarmclub__categories__item p{
     font-family: var(--font-family);
-    margin-top: 1rem;
+    margin: 0.5rem auto;
     font-weight: 500;
 }
-.btn{
+ .btn{
     display: inline-block;
-    margin-top: 1rem;
+    margin: 1rem  auto;
     padding: 1rem 1rem;
     background: var(--color-primary);
     text-decoration: none;
@@ -40,7 +39,8 @@
     font-family: var(--font-family);
     font-weight: 800;
     outline:none;
-    border: none;   
+    border: none;
+    text-align: center;   
 }
 
 .btn:hover{
