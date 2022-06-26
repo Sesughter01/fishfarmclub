@@ -2,7 +2,7 @@ import React from 'react'
 import whatsapplogo from '../../assets/whatsAppLogo.svg'
 import './chatbot.css'
 
-const ChatBot = () => {
+const Chatbot = () => {
     return (
         <div className='chatbot'>
             <a href="https://wa.me/498988997127?text=Hi"><img src={whatsapplogo} alt="" /></a>
@@ -10,4 +10,4 @@ const ChatBot = () => {
     )
 }
 
-export default ChatBot
+export default Chatbot

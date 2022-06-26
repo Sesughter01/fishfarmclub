@@ -3,7 +3,6 @@ export {default as Brand} from './brand/Brand';
 export {default as Cta} from './cta/Cta';
 export {default as Feature} from './feature/Feature';
 export {default as Navbar} from './navbar/Navbar';
-export {default as Chatbot} from './chatbot/Chatbot';
 export {default as ImgCard} from './img-card/ImgCard';
 export {default as PackageCard} from '../routes/package_card/PackageCard';
 export {default as package_name} from './mypackages'
@@ -11,4 +10,4 @@ export {default as allImages} from './images'
 export {default as prices} from './prices'
 export {default as Modal} from './modal/Modal'
 export {default as Invest} from './invest_form/Invest'
-export {default as ChatBot} from './bot/ChatBot'
+export {default as Chatbot} from './bot/Chatbot'
