@@ -1,0 +1,44 @@
+.chatbot{
+    position : fixed;
+    right: 4rem;
+    top:380px;
+}
+.chatbot img{
+    
+    width:180px;
+    height: 180px;
+    transition: transform 250ms ease-in-out;
+}
+.chatbot img:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:1200px){
+    .chatbot img{
+        width:150px;
+        height: 150px;
+    }
+
+
+}
+@media screen and (max-width:1000px){
+    .chatbot img{
+        width:100px;
+        height: 100px;
+    }
+
+
+}
+@media screen and (max-width:550px){
+    .chatbot{
+        position : fixed;
+        right: 2rem;
+        top:470px;
+    }
+    .chatbot img{
+        width:90px;
+        height: 90px;
+    }
+
+
+}
