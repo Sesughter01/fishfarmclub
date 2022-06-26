@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 import {Header, Testimonials, Footer,Packages,Partners } from './containers';
-import { Navbar,ChatBot } from './components';
+import { Navbar,Chatbot } from './components';
 import './App.css';
 
 // axios.defaults.baseURL = "http://127.0.0.1:8000/";
@@ -16,7 +16,7 @@ const App = () => {
        
         <Navbar />
         <Header />
-         <ChatBot />
+         <Chatbot />
       </div>
         <Packages />
         <Testimonials />
