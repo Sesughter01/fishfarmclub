@@ -1,5 +1,5 @@
 import React from 'react'
-import whatsapplogo from '../../assets/whatsAppLogo.svg'
+import whatsapplogo from '../../assets/whatsApplogo.svg'
 import './chatbot.css'
 
 const Chatbot = () => {
