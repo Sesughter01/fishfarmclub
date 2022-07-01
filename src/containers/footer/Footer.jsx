@@ -30,7 +30,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="fishfarmclub__footer-bottom">
-                             <p className="fishfarmclub__copyrights"><a href="/"><span>Fish</span>FarmClub</a> <br /> Powdered by Samspec Enterprise.</p>
+                             <p className="fishfarmclub__copyrights"><a href="/"><span>Fish</span>FarmClub</a> <br /> Powered by Samspec Enterprise.</p>
                              <p className="fishfarmclub__tos">Terms & Conditions</p>
                              <p className="fishfarmclub__policy">Privacy Policy</p>
                         </div>
