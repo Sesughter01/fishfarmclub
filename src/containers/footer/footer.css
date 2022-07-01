@@ -30,6 +30,7 @@
     font-size: 1rem;
     font-weight: 600;
     list-style: none;
+   
 }
 .fishfarmclub__footer-bottom{
     border-top: 1px solid black;
@@ -52,5 +53,9 @@
     #footerid h2,h3{
         text-align: center;
      font-size: 1rem;
+    }
+    .fishfarmclub__footer-top_list li{
+      
+        text-align: center;
     }
 }
